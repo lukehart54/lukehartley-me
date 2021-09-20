@@ -1,0 +1,49 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
+}
+
+.coolhov {
+  background-image: linear-gradient(90deg, red, blue);
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  font-weight: 900;
+  background-position: left bottom;
+  transition: background-size 300ms ease;
+}
+
+.coolhov:hover {
+  background-image: linear-gradient(90deg, red, blue);
+  background-size: 100% 3px;
+}
+
+.coolhov:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.pics {
+    width: 1000px;
+}
+
+.pic1 {
+  height: 300px;
+  background-color: orange;
+  background-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/balloon.jpg);
+  background-blend-mode: screen;
+}
+
+.pic2 {
+  height: 300px;
+  background-color: orange;
+  background-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/balloon.jpg);
+  background-blend-mode: multiply;
+}
+
+.pic3 {
+  height: 300px;
+  background-color: orange;
+  background-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/balloon.jpg);
+  background-blend-mode: overlay;
+}
