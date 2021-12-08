@@ -1,0 +1,18 @@
+body {
+    background-color:lightblue;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+p{
+    font-size: large;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    width: 600px;
+}
